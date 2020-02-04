@@ -132,7 +132,7 @@ resource "citrixadc_servicegroup" "foo" {
 }
 `
 
-func TestAccServicegroupAssertNonUpdateableAttributes(t *testing.T) {
+func TestAccServicegroupAssertNonUpdateableAttributes_basic(t *testing.T) {
 
 	if tfAcc := os.Getenv("TF_ACC"); tfAcc == "" {
 		t.Skip("TF_ACC not set. Skipping acceptance test.")
