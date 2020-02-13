@@ -1,15 +1,16 @@
-## 2.48.0 (Unreleased)
-
-## 2.45.0 (January 17, 2020)
-
-NOTES:
+## 0.12.9 (February 13, 2020)
 
 FEATURES:
 
+* **New Resource:** `nsip`
+* **New Resource:** `nsfeature`
+* **New Resource:** `systemuser`
+* **New Resource:** `systemgroup`
+* **New Resource:** `systemcmdpolicy`
+
 ENHANCEMENTS:
 
-BUG FIXES:
-
+* Add lbmonitor bindings is resource/gslbservice
 
 ## 0.12.8 (January 31, 2020)
 
@@ -21,6 +22,7 @@ FEATURES:
 * **New Resource:** `rewriteaction`
 * **New Resource:** `rewritepolicy`
 * **New Resource:** `rewritepolicylabel`
+
 
 ## 0.12.7 (November 18, 2019)
 
